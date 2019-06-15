@@ -32,7 +32,7 @@ require_once('helper.php');
     <div id="myApp">
       <div class="site-header">
         <div class="cw-container">
-          <a class="back-link" href="javascript:history.back()">Back</a>
+          <a class="back-link" href="javascript:history.back()">Voltar</a>
         </div>
       </div>
 
